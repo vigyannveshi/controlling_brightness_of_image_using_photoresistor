@@ -84,5 +84,5 @@ Basic understanding of HTML, CSS, Javascript, Arduino, NodeJS, using terminal an
 
 ---
 
-- You can simulate the circuit shown in the circuit diagram inorder to visualise the electronics involved using Tinkercad, you may not be able to apply it to control brightness of an image, yet it will help you in understanding the working of the circuit and also the program uploaded on arduino. Reference: https://www.tinkercad.com/things/0x8DoxWbNPq.
+- You can simulate the circuit shown in the circuit diagram inorder to visualise the electronics involved using Tinkercad, you may not be able to apply it to control brightness of an image, yet it will help you in understanding the working of the circuit and also the program uploaded on arduino. </br>Reference: https://www.tinkercad.com/things/0x8DoxWbNPq.
 - You can use the same concept to visualise auto-brightness feature in smart phones. This can be achievable in n - number of ways, one of the way being sampling the voltage across the photoresistor.This can be simply done by interchanging the wires of ground and 5v. Other ways could be via alteration in programs. For example passing the value of (1 - mapped value) to serial port.
