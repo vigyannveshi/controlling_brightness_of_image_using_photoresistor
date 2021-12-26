@@ -49,7 +49,7 @@ Basic understanding of HTML, CSS, Javascript, Arduino, NodeJS, using terminal an
 
 -**_Interaction of Arduino with the Webpage:_**
 
-- Now comes the crux, controlling brightness of image. For this we will use a basic HTML page, image is added to it. The brightness of the image is controlled using CSS filters - brightness(), actually you can control other filters also, but since brightness is clearly seen it is better to control it. We create a CSS variable and pass it as a parameter to brightness().
+- Now comes the crux, controlling brightness of image. For this we will use a basic HTML page, image is added to it. The brightness of the image is controlled using CSS filters - brightness(), actually you can control other filters also, but since brightness is clearly seen it is better to control it. We create a CSS variable and pass it as a parameter to brightness(). </br>
   `brightness(var(--alpha));`
 - This CSS variable is then changed using JavaScript - DOM ( Document Object Model) which recieves data from the backend (NodeJS) via the socket.io module.
 - We use NodeJS via serialport module to communicate with the serial port and recieve data sent by arduino, for this we need to see that arduino doesn't communicate with any other application (eg: Serial Monitor on Arduino IDE shouldn't be running).
@@ -78,11 +78,11 @@ Basic understanding of HTML, CSS, Javascript, Arduino, NodeJS, using terminal an
     </br>
 8.  Open a browser (preferably Google Chrome) and open localhost at port 3000 using the url given below. </br>
     `http://localhost:3000/` </br>
-9)You can view the image. Try varying light falling on the photoresistor and observe the image on your screen, its brightness will also change and on total elimination of light, brightness of the image will approach zero.
+9.  You can view the image. Try varying light falling on the photoresistor and observe the image on your screen, its brightness will also change and on total elimination of light, brightness of the image will approach zero.
 
 ## Extras
 
 ---
 
-- You can simulate the circuit shown in the circuit diagram inorder to visualise the electronics involved using Tinkercad, you may not be able to apply it to control brightness of an image, yet it will help you in understanding the working of the circuit and also the program uploaded on arduino. Reference:https://www.tinkercad.com/things/0x8DoxWbNPq.
+- You can simulate the circuit shown in the circuit diagram inorder to visualise the electronics involved using Tinkercad, you may not be able to apply it to control brightness of an image, yet it will help you in understanding the working of the circuit and also the program uploaded on arduino. Reference: https://www.tinkercad.com/things/0x8DoxWbNPq.
 - You can use the same concept to visualise auto-brightness feature in smart phones. This can be achievable in n - number of ways, one of the way being sampling the voltage across the photoresistor.This can be simply done by interchanging the wires of ground and 5v. Other ways could be via alteration in programs. For example passing the value of (1 - mapped value) to serial port.
