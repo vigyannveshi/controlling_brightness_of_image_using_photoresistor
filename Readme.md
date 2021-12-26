@@ -2,18 +2,18 @@
 
 <img src="featured_img.svg">
 
-# Acknowledgements
+## Acknowledgements
 ***
 ***Special Thanks to:***
 * ***God***, who supported me strongly and helped me to rise every time, I failed in the duration of the project.
 * ***Chitresh Sinha***, the photographer who captured the image, used in the project. Reference http://www.chitrr.com/downloads/butterfly/, check the directory for screenshot of purchase reciept.
 * ***Adam Thomas (youtube)***, https://www.youtube.com/watch?v=gQYsUjT-IBo&t=4s ,from whom I was able to understand the concept to interact Arduino via serial -port with Nodejs using (serialport) and then transfering the data to the front-end using (socket.io) in the best way possible, which served the crux to complete the project.
 
-# Disclaimer
+## Disclaimer
 ***
 The project is created only for education and learning purpose, and not with any economic intentions. The image used in the project is taken from http://www.chitrr.com/downloads/butterfly/, and the credits of the image, belong to the photographer. If there are any copyrights issues regarding the image, please contact: mailtovigyannveshi@gmail.com
 
-# Do it yourself
+## Do it yourself
 ***
 **Prerequisites:**
  Basic understanding of HTML, CSS, Javascript, Arduino, NodeJS, using terminal and finally problem-solving. The reason for adding the prerequisities is because it is not as simple as installing a game on your local system. You need to be an experienced problem solver (debugger), your circuit may give errors, arduino-local system connection may give errors, one of errors worth mentioning which I faced in my early learning phase was serialport module not working or not getting installed, in my case the issue was absence of python(greater than version 2.7) installed on system. It may be a smooth Mercedes ride to you, but to me it has always been a roller coaster ride.  Yet another reason for the prerequisities is, if you want to apply the concept used in the project to some-other project or modify it as per your needs. Whenever one desires simplified solutions, he must first seek out the science behind the substance.
@@ -63,7 +63,7 @@ Reference for documentation: https://socket.io/
 `http://localhost:3000/`
 9)You can view the image. Try varying light falling on the photoresistor and observe the image on your screen, its brightness will also change and on total elimination of light, brightness of the image will approach zero.
 
-# Extras
+## Extras
 ***
 * You can simulate the circuit shown in the circuit diagram inorder to visualise the electronics involved using Tinkercad, you may not be able to apply it to control brightness of an image, yet it will help you in understanding the working of the circuit and also the program uploaded on arduino. Reference:https://www.tinkercad.com/things/0x8DoxWbNPq.
 * You can use the same concept to visualise auto-brightness feature in smart phones. This can be achievable in n - number of ways, one of the way being sampling the voltage across the photoresistor.This can be simply done by interchanging the wires of ground and  5v. Other ways could be via alteration in programs. For example passing the value of (1 - mapped value) to serial port.
