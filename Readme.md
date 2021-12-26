@@ -39,7 +39,7 @@ Basic understanding of HTML, CSS, Javascript, Arduino, NodeJS, using terminal an
 
 -**_Electronics Involved:_**
 
-<img src="circuit-diagram.png" width="1030px" height="757px">
+<img src="circuit-diagram.png">
 
 - Kindly refer the circuit before reading ahead.
 - The electronics part is quite simple because the circuit is a simple voltage-divider, and role of the arduino is only to sample voltage across the (resistor 10Kohms + potentiometer) using the analog read function of the board, which uses a 10-bit ADC (parameters specific to boards mentioned in needed) to sample the voltage hence gives 1023--> 5V and 0-->0V. This is linerally mapped to a value between 0 and 1 using the program uploaded to arduino. This mapped value is passed on to the local system via serial port.
