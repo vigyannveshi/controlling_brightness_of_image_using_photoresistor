@@ -1,4 +1,4 @@
-#Controlling Brightness of a Image using photoresistor
+# Controlling Brightness of a Image using photoresistor
 
 <img src="featured_img.svg">
 
