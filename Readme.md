@@ -1,3 +1,7 @@
+#Controlling Brightness of a Image using photoresistor
+
+<img src="featured_img.svg">
+
 # Acknowledgements
 ***
 ***Special Thanks to:***
