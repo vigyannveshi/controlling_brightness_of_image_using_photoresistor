@@ -27,8 +27,8 @@ const parser = new parsers.Readline({
   delimiter: "\r\n",
 });
 
-//Change the "COM4" to the port used in your system.
-var port = new SerialPort("COM4", {
+//Change the "COM3" to the port used in your system.
+var port = new SerialPort("COM3", {
   baudRate: 9600, //Set your baud rate based on your declaration in the code for arduino
   dataBits: 8,
   parity: "none",

@@ -1,10 +1,7 @@
 /*
 Controlling brightness of an image using photoresistor:
-
   Note:
-
   Please refer the same directory for the ciruit diagram, to simulate the circuit on tinkercad refer: https://www.tinkercad.com/things/0x8DoxWbNPq, the  simulation will only give you the values of alpha on serial monitor on TinkerCad, but you won't be able to directly use this values to control brightness of image because NodeJs requires an Arduino(Hardware on the port, to take in serial readings). The simulation is crucial in order to understand the implementation as far as usage of Arduino Electronics is considered.
-
 */
 
 void setup()
